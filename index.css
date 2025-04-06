@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Roboto";
+}
+
+.Pomodoro-timerContainer{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.Pomodoro-heading{
+    color: rgb(141, 140, 144);
+    font-size: 24px;
+}
+
+.counter{
+    color: rgb(37, 26, 26);
+    font-size: 38px;
+    font-weight: 400;
+}
+
+.startBtn{
+    background-color: rgb(84, 246, 84);
+    border: none;
+    width: 90px;
+    height: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.startBtn:hover{
+    opacity: 1;
+    background-color: rgb(117, 245, 117);
+}
+
+.stopBtn{
+    background-color: rgb(246, 46, 46);
+    border: none;
+    width: 90px;
+    height: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.stopBtn:hover{
+    opacity: 1;
+    background-color: rgb(245, 97, 97);
+}
+
+.resetBtn{
+    background-color: grey;
+    border: none;
+    width: 90px;
+    height: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.resetBtn:hover{
+    opacity: 1;
+    background-color: rgb(200, 181, 181);
+}
+
+.shortBtn{
+    background-color: rgb(127, 213, 247);
+    border: none;
+    width: 130px;
+    height: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.shortBtn:hover{
+    opacity: 1;
+    background-color: rgb(170, 214, 232);
+}
+
+.longBtn{
+    background-color: rgb(245, 123, 245);
+    border: none;
+    width: 130px;
+    height: 30px;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.longBtn:hover{
+    opacity: 1;
+    background-color: rgb(224, 124, 224);
+}
+
+.audiodis{
+    display: none;
+}
