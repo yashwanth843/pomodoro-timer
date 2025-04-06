@@ -74,7 +74,7 @@ let longBtn = document.getElementById("longbtn");
 let audio = document.getElementById("audio");
 
 let timerId = null;
-let count = 1 * 60; 
+let count = 25 * 60; 
 
 
 function formatTime(seconds) {
